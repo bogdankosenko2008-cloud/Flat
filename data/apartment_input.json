@@ -1,0 +1,49 @@
+{
+  "apartment_id": "Flat_101",
+  "premises": [
+    {
+      "id": "corridor_1",
+      "type": "corridor",
+      "name": "Corridor",
+      "walls": [
+        { "x1": 0, "y1": 0, "x2": 2, "y2": 0, "isExit": true, "doors_count": 1, "width": 0.3 },
+        { "x1": 2, "y1": 0, "x2": 2, "y2": 5, "isExit": false, "doors_count": 1, "width": 0.15 },
+        { "x1": 2, "y1": 5, "x2": 0, "y2": 5, "isExit": false, "doors_count": 1, "width": 0.15 },
+        { "x1": 0, "y1": 5, "x2": 0, "y2": 0, "isExit": false, "doors_count": 0, "width": 0.3 }
+      ],
+      "doors": [
+        { "x1": 0.5, "y1": 0, "x2": 1.4, "y2": 0, "material": "metal", "isMainExit": true },
+        { "x1": 2, "y1": 2.0, "x2": 2, "y2": 2.9, "material": "wood", "isMainExit": false },
+        { "x1": 0.6, "y1": 5, "x2": 1.4, "y2": 5, "material": "wood", "isMainExit": false }
+      ]
+    },
+    {
+      "id": "room_1",
+      "type": "room",
+      "name": "Living Room",
+      "walls": [
+        { "x1": 2, "y1": 0, "x2": 6, "y2": 0, "isExit": false, "doors_count": 0, "width": 0.3 },
+        { "x1": 6, "y1": 0, "x2": 6, "y2": 5, "isExit": false, "doors_count": 0, "width": 0.3 },
+        { "x1": 6, "y1": 5, "x2": 2, "y2": 5, "isExit": false, "doors_count": 0, "width": 0.15 },
+        { "x1": 2, "y1": 5, "x2": 2, "y2": 0, "isExit": false, "doors_count": 1, "width": 0.15 }
+      ],
+      "doors": [
+        { "x1": 2, "y1": 2.0, "x2": 2, "y2": 2.9, "material": "wood", "isMainExit": false }
+      ]
+    },
+    {
+      "id": "room_2",
+      "type": "room",
+      "name": "Bedroom",
+      "walls": [
+        { "x1": 0, "y1": 5, "x2": 4, "y2": 5, "isExit": false, "doors_count": 1, "width": 0.15 },
+        { "x1": 4, "y1": 5, "x2": 4, "y2": 8, "isExit": false, "doors_count": 0, "width": 0.3 },
+        { "x1": 4, "y1": 8, "x2": 0, "y2": 8, "isExit": false, "doors_count": 0, "width": 0.3 },
+        { "x1": 0, "y1": 8, "x2": 0, "y2": 5, "isExit": false, "doors_count": 0, "width": 0.3 }
+      ],
+      "doors": [
+        { "x1": 0.6, "y1": 5, "x2": 1.4, "y2": 5, "material": "wood", "isMainExit": false }
+      ]
+    }
+  ]
+}
